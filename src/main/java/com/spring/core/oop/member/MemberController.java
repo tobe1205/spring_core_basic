@@ -10,6 +10,7 @@ public class MemberController {
     }
 
 
+
     //회원가입 명령 기능
     public void join(Member member) {
         memberRepository.save(member);
